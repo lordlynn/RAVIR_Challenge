@@ -162,7 +162,7 @@ def make_predictions(output_dir):
                     else:
                         imageOut[row][col] = 0
 
-        # cv2.imwrite(output_dir + test_image_filenames[image], imageOut)
+        cv2.imwrite(output_dir + test_image_filenames[image], imageOut)
 
 
 define_model()

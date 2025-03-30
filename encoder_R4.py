@@ -161,7 +161,7 @@ read_training_data()
 autoencoder.fit(training_image_batch, training_mask_batch, epochs=50, batch_size=3, shuffle=True) 
 
 # Save Model
-# autoencoder.save_weights("./model/R4_BE_50")
+autoencoder.save_weights("./model/R4_BE_50")
 
 
 # Test image
